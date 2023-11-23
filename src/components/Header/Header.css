@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 1920px;
+  max-width: 100%;
+  height: 83px;
+  opacity: 0.7;
+  background: #222;
+  box-shadow: 0px 4.36364px 16px -2.18182px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.nav_logo {
+  margin-left: 314px;
+}
+.nav_list {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-left: 620px;
+  width: 473px;
+  height: 21px;
+  /* border: 1px solid white; */
+}
+.nav_list_link {
+  text-decoration: none;
+  width: 48px;
+  height: 19.636px;
+  color: cyan;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+.nav_list_link1 {
+  margin-left: 71px;
+  text-decoration: none;
+  width: 48px;
+  height: 19.636px;
+  color: cyan;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+.header_logo {
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: sans-serif;
+  display: block;
+}
+.headermenu {
+  display: none;
+  width: 30px;
+  height: 40px;
+}
+.menuhc {
+  width: 100%;
+  border: 1px solid;
+}
+
+@media (max-width: 840px) {
+  .nav_logo {
+    margin-left: 30px;
+  }
+  .nav_list {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    width: 100%;
+  }
+  .nav_logo {
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+  .header-logo-icon {
+    display: none;
+  }
+  .header_logo {
+    color: #fff;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: block;
+  }
+  .nav_list {
+      margin-left: 0px;
+  }
+  .nav_list_link1 {
+    margin-left: 40px;
+  }
+  .headermenu {
+    display: block;
+    margin-left: 220px;
+  }
+  .myStyle {
+    display: block;
+  }
+  
+}

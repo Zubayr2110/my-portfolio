@@ -1,0 +1,6 @@
+export {default as header_menu} from '../assets/bars-solid.svg'
+export {default as Footeremailimg} from '../assets/Email Icon.svg'
+export {default as FooterInstaIcon} from '../assets/Instagram.svg'
+export {default as FooterYoutubeIcon} from '../assets/YouTube.svg'
+export {default as FooterTelegramIcon} from '../assets/telegram.png'
+export {default as FooterWhatsapp} from '../assets/whatsapp.svg'

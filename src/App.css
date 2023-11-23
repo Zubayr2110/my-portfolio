@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--Background-Color, #161513);
+}
+.appcontainer {
+  margin: 0 auto;
+}

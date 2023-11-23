@@ -13,10 +13,10 @@ export default function Footer() {
           <p className='footer_emailtext'>workaccaunt6@gmail.com</p>
         </a>
         <div className='footer_link'>
-          <a href=''><img src={ FooterInstaIcon } alt="instagram Icon" /></a>
-          <a href='https://'><img src={ FooterWhatsapp } alt="instagram Icon" className='footerwhatsappicon' /></a>
+          <a href='https://www.instagram.com/zubayr_2110/'><img src={ FooterInstaIcon } alt="instagram Icon" /></a>
+          <a href='https://Wa.me/998801206'><img src={ FooterWhatsapp } alt="instagram Icon" className='footerwhatsappicon' /></a>
           <a href='https://t.me/zubayr_2110'><img src={ FooterTelegramIcon } alt="Telegram Icon" className='footerticon'  /></a>
-          <a href='https://www.youtube.com/@Zubayr_Tolqinov'><img src={ FooterYoutubeIcon } alt="Telegram Icon"  /></a>
+          <a href='https://www.youtube.com/@Zubayr_Tolqinov'><img src={ FooterYoutubeIcon } alt="Telegram Icon" className='footeryicon' /></a>
         </div>
     </footer>
   )

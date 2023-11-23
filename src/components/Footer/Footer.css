@@ -32,7 +32,7 @@
 }
 
 .footer_link {
-
+    margin-left: 50px;
     width: 150px;
     display: flex;
     align-items: center;
@@ -48,6 +48,33 @@
     width: 20px;
     height: 20px;
 }
-@media (min-width: 768px) {
+@media (max-width: 840px) {
+    .footer_text {
+        font-size: 12px;
+    }
+    .footer_email {
+        margin-left: 20px;
+    }
+    .footerwhatsappicon {
+        margin-left: 17px;
+    }
+    .footerticon {
+        margin-left: 17px;
+    }
+    .footeryicon {
+        margin-left: 17px;
+    }
+}
+@media (max-width: 430px) {
+    .footer_text {
+        
+        display: none;
+    }
+    .footer_email {
+        margin-left: 1px;
+    }
+    .footer_link {
+        margin-left: 20px;
+    }
 
 }

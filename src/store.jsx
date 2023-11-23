@@ -1,4 +1,9 @@
+import { configureStore } from '@reduxjs/toolkit'
+import CartSlice from './features/CartSlice'
 
-// const initialState = {
-//     loading: false,
-// }
+
+export const store = configureStore({
+    reducer: {
+        cart: CartSlice
+    }
+})

@@ -5,7 +5,7 @@ a {
 }
 
 .header {
-  position: fixed;
+  /* position: fixed; */
   display: flex;
   align-items: center;
   width: 1920px;
@@ -87,7 +87,7 @@ a {
     width: 100%;
   }
   .nav_logo {
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: 0px;
   }
   .header-logo-icon {

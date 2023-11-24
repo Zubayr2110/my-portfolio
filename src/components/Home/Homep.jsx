@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   MainAvatar,
   MainBootstrapIcon,
@@ -19,30 +19,30 @@ export default function Homep() {
     <main className="home">
       <img src={MainAvatar} alt="img" className="mainavataricon" />
       <h1 className="mainh1">
-        Salom Men{" "}
+        Men{" "}
         <span className="mainh1span">
-          Zubayr <br /> Frontend
+           <br /> Frontend
         </span>{" "}
         Dasturchiman
       </h1>
       <p className="maininfo">
         Men Frontend Dasturchiman. <br /> Hozirda Najot Ta'limni, Chilonzor
-        Filialini Bitirdim. Meni Tajribam <br /> HTML, CSS, Sass, JS, Bootstrap,
+        Filialida O'qiyma. Meni Tajribam <br /> HTML, CSS, Sass, JS, Bootstrap,
         React JS, Reducer, Redux.
       </p>
-      <a href="tel:+998998801206" className="mainbtna">
+      <Link to="tel:+998998801206" className="mainbtna" target="_blank">
         <button className="mainbtn">Contact Me</button>
-      </a>
+      </Link>
       <p className="mainEW">EXPERIENCE WITH</p>
-      <div className="mainLanguageIcon">
+      <section className="mainLanguageIcon">
         <img src={MainHtmlIcon} alt="" />
         <img src={MainCssIcon} alt="" />
         <img src={MainJsIcon} alt="" />
         <img src={MainReactJSIcon} alt="" />
-      </div>
+      </section>
       <p className="mainPT">Projects</p>
-      <div className="mainProjects">
-        <a href="https://youtu.be/xcGtfYUfDLo?si=Vp-SIeVPGpqZve5z">
+      <section className="mainProjects">
+        <Link to="https://youtu.be/xcGtfYUfDLo?si=Vp-SIeVPGpqZve5z" target="_blank">
           <div className="mainProjects1nd">
             <img
               src={MainThumbnailimg}
@@ -61,8 +61,8 @@ export default function Homep() {
               />
             </div>
           </div>
-        </a>
-        <a href="https://youtu.be/uUULF8ikQoY?si=u9_GAAniL9ZfzLtA">
+        </Link>
+        <Link to="https://youtu.be/uUULF8ikQoY?si=u9_GAAniL9ZfzLtA" target="_blank" >
           <div className="mainProjects2nd">
             <img
               src={MainThumbnail2ndimg}
@@ -81,8 +81,8 @@ export default function Homep() {
               />
             </div>
           </div>
-        </a>
-      </div>
+        </Link>
+      </section>
       <p className="mainHYP">Loyihangiz Bormi?</p>
       <p className="mainPKB">
         Keling, birgalikda <br /> ajoyib Web-Sayt yarataylik

@@ -1,0 +1,161 @@
+:root {
+    /* --border: 1px solid #fff; */
+}
+
+.projectcontent {
+    width: 1920px;
+    max-width: 100%;
+}
+.projectCC {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 1250px;
+    border: var(--border);
+}
+.projecth1 {
+    background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 65px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63.357px;
+    padding-bottom: 15px;
+}
+.projectCD {
+    margin-top: 70px;
+    width: 100%;
+    height: 2300px;
+    border: var(--border);
+}
+.projectCDC{ 
+    display: flex;
+    border: var(--border);
+}
+.projectCDC1{ 
+    margin-top: 200px;
+    display: flex;
+    border: var(--border);
+}
+.projectCDC2 {
+    margin-top: 200px;
+    display: flex;
+    border: var(--border);  
+}
+.projectCD1nd {
+    width: 400px;
+    height: 400px;
+    border: var(--border);
+}
+.projectCD2nd {
+    margin-left: 145px;
+    
+
+}
+.projectCD1ndtext {
+    margin-left: 300px;
+    width: 500px;
+    height: 400px;
+    border: var(--border);
+}
+.projectCD2ndtext {
+    width: 500px;
+    height: 400px;
+    border: var(--border);
+}
+.projectCD1ndh2 {
+    margin-top: 50px;
+    background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63.357px;
+}
+.projectCD1ndbtn1 {
+    margin-top: 50px;
+    background-color: #00ffa2;
+    margin-left: 90px;
+    width: 130px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.projectCD1ndbtn2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 130px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #00ffa2;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+@media (max-width: 840px) {
+    .projectcontent {
+        width: 100%;
+    }
+    .projectCC {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .projecth1 {
+        text-align: center;
+    }
+    .projectCD {
+        height: 3800px;
+    }
+    .projectCDC {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .projectCDC1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .projectCD1ndtext {
+        margin-left: 10px;
+    }
+    .projectCD1nd {
+        margin-left: 100px;
+    }
+    .projectCD2nd {
+        margin-left: 100px;
+
+    }
+    .projectCD1ndtext {
+        margin: 0 auto;
+        height: 350px;
+    }
+    .projectCD2ndtext {
+        height: 300px;
+        margin: 0 auto;
+    }
+    .projectCDC2 {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+    /* .projectResponseimg {
+        width: 300px;
+        height: 200px;
+    } */
+
+
+}
+@media (max-width: 430px) {
+
+
+}

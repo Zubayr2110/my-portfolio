@@ -19,15 +19,15 @@ export default function Homep() {
     <main className="home">
       <img src={MainAvatar} alt="img" className="mainavataricon" />
       <h1 className="mainh1">
-        Men{" "}
+        Salom Men {" "}
         <span className="mainh1span">
-           <br /> Frontend
+          Zubayr <br /> Frontend
         </span>{" "}
         Dasturchiman
       </h1>
       <p className="maininfo">
         Men Frontend Dasturchiman. <br /> Hozirda Najot Ta'limni, Chilonzor
-        Filialida O'qiyma. Meni Tajribam <br /> HTML, CSS, Sass, JS, Bootstrap,
+        Filialida O'qiyman. Meni Tajribam <br /> HTML, CSS, Sass, JS, Bootstrap,
         React JS, Reducer, Redux.
       </p>
       <Link to="tel:+998998801206" className="mainbtna" target="_blank">

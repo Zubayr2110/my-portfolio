@@ -33,7 +33,7 @@ export default function ProjectsP() {
           <div className="projectCDC1">
             <div className="projectCD2ndtext">
               <h2 className="projectCD1ndh2">
-                Todo List
+                Todo List 
               </h2>
               <a href="https://todog.netlify.app/">
                 <button className="projectCD1ndbtn1">Project Link</button>

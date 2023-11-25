@@ -1,5 +1,24 @@
 .contactContent {
+    margin: 0 auto;
     width: 1920px;
     max-width: 100%;
-    background: #fff;
+}
+.aboutC {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 1920px;
+    max-width: 100%;
+    border: 1px solid #fff;
+}
+.abouth1 {
+    background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 63.357px;
+    text-align: center;
 }

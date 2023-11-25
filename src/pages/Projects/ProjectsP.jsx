@@ -20,14 +20,16 @@ export default function ProjectsP() {
             </div>
             <div className="projectCD1ndtext">
               <h2 className="projectCD1ndh2">
-                Ushbu loyiha faqat HTML va CSS dan iborat
+                Ushbu loyiha HTML va CSS dan iborat
               </h2>
-              <a href="https://0name.netlify.app">
-                <button className="projectCD1ndbtn1">Project Link</button>
-              </a>
-              <a href="https://github.com/Zubayr2110/client-first.git">
-                <button className="projectCD1ndbtn2">Github Link</button>
-              </a>
+              <div className="projectCDbtn">
+                <a href="https://0name.netlify.app">
+                  <button className="projectCD1ndbtn1">Project Link</button>
+                </a>
+                <a href="https://github.com/Zubayr2110/client-first.git">
+                  <button className="projectCD1ndbtn2">Github Link</button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="projectCDC1">
@@ -35,12 +37,14 @@ export default function ProjectsP() {
               <h2 className="projectCD1ndh2">
                 Todo List 
               </h2>
-              <a href="https://todog.netlify.app/">
-                <button className="projectCD1ndbtn1">Project Link</button>
-              </a>
-              <a href="https://github.com/Zubayr2110/Todo.git">
-                <button className="projectCD1ndbtn2">Github Link</button>
-              </a>
+              <div className="projectCDbtn">
+                <a href="https://todog.netlify.app/">
+                  <button className="projectCD1ndbtn1">Project Link</button>
+                </a>
+                <a href="https://github.com/Zubayr2110/Todo.git">
+                  <button className="projectCD1ndbtn2">Github Link</button>
+                </a>
+              </div>
             </div>
             <div className="projectCD2nd">
               <img src={ProjectSimg4} alt="img" width={600} height={400} className="projectResponseimg" />
@@ -54,12 +58,14 @@ export default function ProjectsP() {
               <h2 className="projectCD1ndh2">
                 Bu Project HTML CSS va JS da Yasalgan
               </h2>
-              <a href="https://sh0p.netlify.app">
-                <button className="projectCD1ndbtn1">Project Link</button>
-              </a>
-              <a href="https://github.com/Zubayr2110/fileshop.git">
-                <button className="projectCD1ndbtn2">Github Link</button>
-              </a>
+              <div className="projectCDbtn">
+                <a href="https://sh0p.netlify.app">
+                  <button className="projectCD1ndbtn1">Project Link</button>
+                </a>
+                <a href="https://github.com/Zubayr2110/fileshop.git">
+                  <button className="projectCD1ndbtn2">Github Link</button>
+                </a>
+              </div>
             </div>
           </div>
           <div className="projectCDC1">
@@ -67,12 +73,14 @@ export default function ProjectsP() {
               <h2 className="projectCD1ndh2">
                 This Is My Portfolio
               </h2>
-              <a href="https://my-portfolio.uz">
-                <button className="projectCD1ndbtn1">Project Link</button>
-              </a>
-              <a href="https://github.com/Zubayr2110/my-portfolio.git">
-                <button className="projectCD1ndbtn2">Github Link</button>
-              </a>
+              <div className="projectCDbtn">
+                <a href="https://my-portfolio.uz">
+                  <button className="projectCD1ndbtn1">Project Link</button>
+                </a>
+                <a href="https://github.com/Zubayr2110/my-portfolio.git">
+                  <button className="projectCD1ndbtn2">Github Link</button>
+                </a>
+              </div>
             </div>
             <div className="projectCD2nd">
               <img src={ProjectSimg3} alt="img" width={600} className="projectResponseimg"/>

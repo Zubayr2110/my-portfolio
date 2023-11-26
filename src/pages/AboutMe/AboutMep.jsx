@@ -3,7 +3,7 @@ import "./AboutMe.css";
 export default function AboutMeP() {
   return (
     <div className="aboutC">
-      <h1 className="abouth1">Men Haqimda</h1>
+      <h1 className="abouth1">Man Haqimda</h1>
       <div className="aboutContent">
         <p className="aboutCA">
           Man <span className="aboutME">Zubayr To'lqinov</span> 2008-Yilda
@@ -19,6 +19,7 @@ export default function AboutMeP() {
           bo'magani sabab uyoda o'qiyolmadm keyin{" "}
           <span className="aboutNT">Najot Ta'limga</span> keldm.
         </p>
+        <p className="aboutProgrammingL">Man Biladigan Dasturlash Tillari: HTML, CSS, Sass, Bootstrap, JavaScript, React JS, Reducer, Redux</p>
         <p className="aboutError">Bu Pageni Dizaynini Qilomapti Dib O'ylamela Prosta Dizyan Qilishga Erindim</p>
         <p className="aboutPLink">  
           <a href="tel:+998998801206" className="aboutLink">

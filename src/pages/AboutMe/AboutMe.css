@@ -1,3 +1,6 @@
+:root {
+    /* --border: 1px solid #fff; */
+}
 .contactContent {
     margin: 0 auto;
     width: 1920px;
@@ -8,7 +11,7 @@
     padding-top: 150px;
     width: 1920px;
     max-width: 100%;
-    border: 1px solid #fff;
+    border: var(--border);
 }
 .abouth1 {
     background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
@@ -21,4 +24,84 @@
     font-weight: 800;
     line-height: 63.357px;
     text-align: center;
+}
+.aboutContent {
+    padding: 30px;
+    margin-top: 50px;
+    width: 100%;
+    height: 610px;
+    border: var(--border);
+}
+.aboutCA {
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+    border: var(--border);
+}
+.aboutPL {
+    color:red;
+}
+.aboutNT {
+    color: rgb(122, 203, 0);
+}
+.aboutME {
+    background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-style: normal;
+
+}
+.aboutError {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    color: red;
+}
+.aboutPLink {
+    margin-top: 50px;
+    text-align: center;
+}
+.aboutPLink1 {
+    margin-top: 20px;
+    text-align: center;
+}
+.aboutLink {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+    border: var(--border);
+    background: green;
+
+}
+.aboutLink1 {
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+    border: var(--border);
+    background: rgb(0, 162, 255);
+
+}
+@media (max-width: 840px) {
+    .aboutContent {
+        height: 775px;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .abouth1 {
+        font-size: 45px;
+    }
+    .aboutContent {
+        height: 1500px;
+    }
+
 }

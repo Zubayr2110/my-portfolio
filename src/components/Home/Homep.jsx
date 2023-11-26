@@ -26,8 +26,8 @@ export default function Homep() {
         Dasturchiman
       </h1>
       <p className="maininfo">
-        Men Frontend Dasturchiman. <br /> Hozirda Najot Ta'limni, Chilonzor
-        Filialida O'qiyman. Meni Tajribam <br /> HTML, CSS, Sass, JS, Bootstrap,
+        Hozirda Men Najot Ta'limni,  Chilonzor <br />
+        Filialida O'qiyman. Men Bilgan Texnologiya <br /> HTML, CSS, Sass, JS, Bootstrap,
         React JS, Reducer, Redux.
       </p>
       <Link to="tel:+998998801206" className="mainbtna" target="_blank">

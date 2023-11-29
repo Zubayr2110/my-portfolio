@@ -59,7 +59,10 @@ export default function AboutMeP() {
             o'qiganman undanam oldin kotlin dasturlash tilini 1 oy It Houseda
             O'qiganman{" "}
           </p>
-          <p className="aboutPL1">Man biladigna dasturlash tillar: HTML, CSS, JavaScrip, React JS. Reducer va Reduxni ham Bilaman</p>
+          <p className="aboutPL1">
+            Man biladigna dasturlash tillar: HTML, CSS, JavaScrip, React JS.
+            Reducer va Reduxni ham Bilaman
+          </p>
         </div>
       </div>
       <div className="AboutMeHref">

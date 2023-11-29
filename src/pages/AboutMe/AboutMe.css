@@ -110,21 +110,42 @@
     background: rgb(25, 87, 255);
     
 }
+.aboutCPL1:active {
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
 .aboutCPL2 {
     width: 60%;
     height: 100%;
     background: rgb(25, 87, 255);   
 }
+.aboutCPL2:active {
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
 .aboutCPL3 {
     width: 75%;
     height: 100%;
     background: rgb(25, 87, 255);   
 }
+.aboutCPL3:active {
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
 .aboutCPL4 {
     width: 65%;
     height: 100%;
     background: rgb(25, 87, 255);   
 }
+.aboutCPL4:active {
+    transition: 1s;
+    transform: rotate(360deg);
+
+}
+
 
 
 .aboutC2 {

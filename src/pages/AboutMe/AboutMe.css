@@ -8,6 +8,7 @@
 }
 .aboutC {
     margin: 0 auto;
+    padding: 100px;
     padding-top: 150px;
     width: 1920px;
     max-width: 100%;
@@ -26,47 +27,147 @@
     text-align: center;
 }
 .aboutContent {
-    padding: 30px;
-    margin-top: 10px;
+    margin: 0px 0px 48px ;
+    padding: 64px 48px;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: auto auto ;
     width: 100%;
-    height: 610px;
+    height: 750px;
+    border: var(--border);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px cyan;
+}
+.aboutC1 {
+    display: grid;
+    grid-template-columns: auto;
+    width: 800px;
+    height: 620px;
+    border: var(--border);
+    
+}
+.aboutC1A {
+    height: 182px;
+    display: grid;
+    grid-template-columns: auto auto;
     border: var(--border);
 }
-.aboutCA {
-    text-align: center;
+.aboutC1Aimg {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+.aboutC1AT {
+    margin-left: 80px;
+    width: 365px;
+    height: 155px;
+    border: var(--border);
+}
+.aboutC1AT1 {
     color: white;
-    font-family: Poppins;
-    font-size: 25px;
-    border: var(--border);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
-.aboutPL {
-    color:red;
+.aboutC1AT1span {
+    font-weight: 400;
+    color: rgb(222, 222, 222);
 }
-.aboutNT {
-    color: rgb(122, 203, 0);
-}
-.aboutME {
-    background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Poppins;
-    font-style: normal;
+.aboutC1AT2 {
+    margin-top: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
 
 }
-.aboutProgrammingL {
-    font-family: Poppins;
-    color: rgb(238, 255, 182);
-    text-align: center;
-    margin-top: 20px;
-    font-size: 30px;
+
+
+.aboutC1S {
+    margin-top: 30px;
+    height: 400px;
+    border: var(--border);
 }
-.aboutError {
-    margin-top: 50px;
+.aboutC1ST {
+    color: white;
+    font-family: sans-serif;
+}
+.aboutC1STPL {
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.aboutC1PL1 {
+    margin-top: 15px;
+    width: 100%;
+    height: 15px;
+    background: rgb(135, 180, 196);    
+}
+.aboutCPL1 {
+    width: 80%;
+    height: 100%;
+    background: rgb(25, 87, 255);
+    
+}
+.aboutCPL2 {
+    width: 60%;
+    height: 100%;
+    background: rgb(25, 87, 255);   
+}
+.aboutCPL3 {
+    width: 75%;
+    height: 100%;
+    background: rgb(25, 87, 255);   
+}
+.aboutCPL4 {
+    width: 65%;
+    height: 100%;
+    background: rgb(25, 87, 255);   
+}
+
+
+.aboutC2 {
+    margin-left: 20px;
+    width: 780px;
+    height: 620px;
+    border: var(--border);
+}
+.aboutC2h2 {
     text-align: center;
-    font-family: Poppins;
-    font-size: 30px;
-    color: red;
+    margin-top: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.aboutC2BB {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 150px;
+    height: 3px;
+    background: blue;
+}
+.aboutC2TA {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.aboutPL1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+
+
+.AboutMeHref {
+    margin-top: 200px;
+    height: 200px;
 }
 .aboutPLink {
     margin-top: 50px;
@@ -97,24 +198,117 @@
 
 }
 @media (max-width: 840px) {
+    .aboutC {
+        padding: 30px;
+        padding-top: 150px;
+    }
     .aboutContent {
-        height: 775px;
+        padding: 5px;
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 700px;
+    }
+    .aboutC1 {
+        margin: 0 auto;
+        width: 300px ;
+    }
+    .aboutC1A {
+        width: 300px;
+    }
+    .aboutC1AT {
+        margin-left: 5px;
+        width: 190px;
+    }
+    .aboutC1AT1 {
+        font-size: 16px;
+    }
+    .aboutC1AT2 {
+        font-size: 16px;
+    }
+    .aboutC2 {
+        margin-left: 35px;
+        width: 300px;
+        height: 900px;
+    }
+    .aboutC2h2 {
+        margin-top: 10px;
+    }
+    .aboutC2TA {
+        font-size: 21px;
+        margin-top: 40px;
+    }
+    .aboutPL1 {
+        font-size: 21px;
+    }
+
+    .AboutMeHref {
+        margin-top: 10px;
     }
 
 }
-
 @media (max-width: 430px) {
+    .aboutC {
+        padding: 20px;
+        padding-top: 150px;
+    }
     .abouth1 {
         font-size: 45px;
     }
     .aboutContent {
-        height: 1300px;
+        padding: 0px;
+        display: grid;
+        grid-template-columns: auto ;
+        height: 1400px;
     }
-    .aboutCA {
-        font-size: 20px;
-    }
-    .aboutProgrammingL {
-        font-size: 20px;
+    .aboutC1 {
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 301px;
     }
 
+    .aboutC1A {
+        grid-template-columns: auto;
+    }
+    .aboutC1AT {
+        width: 100%;
+        height: 130px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .aboutC1AT1 {
+        font-size: 18px;
+    }
+    .aboutC1AT2 {
+        font-size: 18px;
+    }
+    .aboutC1S {
+        margin-top: 170px;
+    }
+
+    .aboutC2 {
+        margin: 0 auto;
+        width: 301px;
+        height: 500px;
+    }
+
+    .aboutC2h2 {
+        margin: 0;
+    }
+    .aboutC2TA {
+        margin-top: 50px;
+        font-size: 21px;
+        color: #e2e2e2;
+    }
+    .aboutPL1 {
+        margin-top: 20px;
+        font-size: 21px;
+        color: #e2e2e2;
+    }
+    .AboutMeHref {
+        margin-top: 20px;
+    }
+    .aboutLink {
+        font-size: 25px;
+    }
 }

@@ -3,31 +3,75 @@ import "./AboutMe.css";
 export default function AboutMeP() {
   return (
     <div className="aboutC">
-      <h1 className="abouth1">Man Haqimda</h1>
+      <h1 className="abouth1">About me</h1>
       <div className="aboutContent">
-        <p className="aboutCA">
-          Man <span className="aboutME">Zubayr To'lqinov</span> 2008-Yilda
-          Toshkentda Tug'ilganman. Man Hozir Uchtepa Tumani 251-maktabda
-          O'qiyman. Man Hozirda <span className="aboutNT">Najot Ta'limni</span>{" "}
-          Bitirvomman 10-Dekabrda Tugidi. Man{" "}
-          <span className="aboutNT">Najot Ta'limga</span> Kemasimdan Oldin
-          Birinchi Bo'b <span className="aboutPL">Kotlin</span> Dasturlash
-          Tilini 1 oy ITHousda O'qiganman, Undan Keyin{" "}
-          <span className="aboutPL">C++</span> ni 3-oy Yunusobodda Registon LSda
-          O'qiganman, Keyin <span className="aboutNT">Najot Ta'limga</span>{" "}
-          Keganman. Nega Uyolada yana o'qimaganim sabab orada azgina sharoit
-          bo'magani sabab uyoda o'qiyolmadm keyin{" "}
-          <span className="aboutNT">Najot Ta'limga</span> keldm.
-        </p>
-        <p className="aboutProgrammingL">Man Biladigan Dasturlash Tillari: HTML, CSS, Sass, Bootstrap, JavaScript, React JS, Reducer, Redux</p>
-        <p className="aboutError">Bu Pageni Dizaynini Qilomapti Dib O'ylamela Prosta Dizyan Qilishga Erindim</p>
-        <p className="aboutPLink">  
+        <div className="aboutC1">
+          <div className="aboutC1A">
+            <img
+              src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg"
+              alt="img"
+              className="aboutC1Aimg"
+            />
+            <div className="aboutC1AT">
+              <p className="aboutC1AT1">
+                Name: <span className="aboutC1AT1span">Zubayr To'lqinov</span>
+              </p>
+              <p className="aboutC1AT2">
+                Profile:{" "}
+                <span className="aboutC1AT1span">Frontend-Developer</span>
+              </p>
+              <p className="aboutC1AT2">
+                Email:{" "}
+                <span className="aboutC1AT1span">workaccaunt6@gmail.com</span>
+              </p>
+              <p className="aboutC1AT2">
+                Phone: <span className="aboutC1AT1span">+998-99-880-12-06</span>
+              </p>
+            </div>
+          </div>
+          <div className="aboutC1S">
+            <h2 className="aboutC1ST">Skill</h2>
+            <p className="aboutC1STPL">HTML 80%</p>
+            <div className="aboutC1PL1">
+              <div className="aboutCPL1"></div>
+            </div>
+            <p className="aboutC1STPL">CSS 60%</p>
+            <div className="aboutC1PL1">
+              <div className="aboutCPL2"></div>
+            </div>
+            <p className="aboutC1STPL">JavaScript 75%</p>
+            <div className="aboutC1PL1">
+              <div className="aboutCPL3"></div>
+            </div>
+            <p className="aboutC1STPL">React 65%</p>
+            <div className="aboutC1PL1">
+              <div className="aboutCPL4"></div>
+            </div>
+          </div>
+        </div>
+        <div className="aboutC2">
+          <h2 className="aboutC2h2">About Me</h2>
+          <p className="aboutC2BB"></p>
+          <p className="aboutC2TA">
+            Salom Man Zubayr To'lqinov 2008-yil 12-Iyunda Tug'ilganman. Hozirda
+            Uchtepa Tumanidigi 251-maktabda o'qiyman. Man Najot Ta'limni
+            Tugatvomma, Najotga kemasimdan oldin c++ 3 oy Registon LSda
+            o'qiganman undanam oldin kotlin dasturlash tilini 1 oy It Houseda
+            O'qiganman{" "}
+          </p>
+          <p className="aboutPL1">Man biladigna dasturlash tillar: HTML, CSS, JavaScrip, React JS. Reducer va Reduxni ham Bilaman</p>
+        </div>
+      </div>
+      <div className="AboutMeHref">
+        <p className="aboutPLink">
           <a href="tel:+998998801206" className="aboutLink">
-            Tel:+998998801206
+            Tel:+998-99-880-12-06
           </a>
         </p>
         <p className="aboutPLink1">
-          <a href="https://t.me/zubayr_2110" className="aboutLink1">Telegram</a>
+          <a href="https://t.me/zubayr_2110" className="aboutLink1">
+            Telegram
+          </a>
         </p>
       </div>
     </div>

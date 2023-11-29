@@ -56,7 +56,7 @@ export default function ProjectsP() {
             </div>
             <div className="projectCD1ndtext">
               <h2 className="projectCD1ndh2">
-                Bu Project HTML CSS va JS da Yasalgan
+                Bu Project HTML CSS va JS API yordamida Yasalgan
               </h2>
               <div className="projectCDbtn">
                 <a href="https://sh0p.netlify.app">

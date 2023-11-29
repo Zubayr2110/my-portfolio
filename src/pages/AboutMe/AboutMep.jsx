@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./AboutMe.css";
 
 export default function AboutMeP() {
@@ -67,14 +68,14 @@ export default function AboutMeP() {
       </div>
       <div className="AboutMeHref">
         <p className="aboutPLink">
-          <a href="tel:+998998801206" className="aboutLink">
+          <a href="tel:+998998801206" target="_blank" className="aboutLink">
             Tel:+998-99-880-12-06
           </a>
         </p>
         <p className="aboutPLink1">
-          <a href="https://t.me/zubayr_2110" className="aboutLink1">
+          <Link to="https://t.me/zubayr_2110" target="_blank" className="aboutLink1">
             Telegram
-          </a>
+          </Link>
         </p>
       </div>
     </div>

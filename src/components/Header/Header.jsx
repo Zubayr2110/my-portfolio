@@ -16,9 +16,9 @@ export default function Header() {
         <Link to={"/projects"} className="nav_list_link1">
           Projects
         </Link>
-        <Link to={"/aboutme"} className="nav_list_link1">
+        <a href="/aboutme" className="nav_list_link1">
           About Me
-        </Link>
+        </a>
       </div>
     </header>
     

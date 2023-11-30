@@ -113,5 +113,10 @@ a {
   .myStyle {
     display: block;
   }
-  
+}
+
+@media (max-width: 1420px) {
+  .nav_list {
+    margin-left: 100px;
+  }
 }

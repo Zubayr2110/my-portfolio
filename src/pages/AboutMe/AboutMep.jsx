@@ -1,7 +1,31 @@
 import { Link } from "react-router-dom";
 import "./AboutMe.css";
-
+import { useEffect } from "react";
 export default function AboutMeP() {
+  window.onload = function () {
+    const ctx = document.getElementById("myChart");
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: ["HTML", "CSS", "Sass", "Botstrap", "JS", "ReactJS"],
+        datasets: [
+          {
+            label: "# vote",
+            data: [95, 70, 100, 50, 60, 55],
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      },
+    });
+  };
+
   return (
     <div className="aboutC">
       <h1 className="abouth1">About me</h1>
@@ -31,23 +55,7 @@ export default function AboutMeP() {
             </div>
           </div>
           <div className="aboutC1S">
-            <h2 className="aboutC1ST">Skill</h2>
-            <p className="aboutC1STPL">HTML 80%</p>
-            <div className="aboutC1PL1">
-              <div className="aboutCPL1"></div>
-            </div>
-            <p className="aboutC1STPL">CSS 60%</p>
-            <div className="aboutC1PL1">
-              <div className="aboutCPL2"></div>
-            </div>
-            <p className="aboutC1STPL">JavaScript 75%</p>
-            <div className="aboutC1PL1">
-              <div className="aboutCPL3"></div>
-            </div>
-            <p className="aboutC1STPL">React 65%</p>
-            <div className="aboutC1PL1">
-              <div className="aboutCPL4"></div>
-            </div>
+            <canvas id="myChart"></canvas>
           </div>
         </div>
         <div className="aboutC2">
@@ -56,7 +64,7 @@ export default function AboutMeP() {
           <p className="aboutC2TA">
             Salom Man Zubayr To'lqinov 2008-yil 12-Iyunda Tug'ilganman. Hozirda
             Uchtepa Tumanidigi 251-maktabda o'qiyman. Man Najot Ta'limni
-            Tugatvomma, Najotga kemasimdan oldin c++ 3 oy Registon LSda
+            Tugatvomma, Najotga kemasimdan oldin CPP ni  3 oy Registon LSda
             o'qiganman undanam oldin kotlin dasturlash tilini 1 oy It Houseda
             O'qiganman{" "}
           </p>
@@ -73,7 +81,11 @@ export default function AboutMeP() {
           </a>
         </p>
         <p className="aboutPLink1">
-          <Link to="https://t.me/zubayr_2110" target="_blank" className="aboutLink1">
+          <Link
+            to="https://t.me/zubayr_2110"
+            target="_blank"
+            className="aboutLink1"
+          >
             Telegram
           </Link>
         </p>

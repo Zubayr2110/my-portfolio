@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./AboutMe.css";
-import { useEffect } from "react";
 export default function AboutMeP() {
   window.onload = function () {
     const ctx = document.getElementById("myChart");

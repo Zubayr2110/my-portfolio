@@ -3,7 +3,6 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 export default function Header() {
-
   return (
     <header className="header">
       <Link to={"/"} className="nav_logo">
@@ -16,11 +15,10 @@ export default function Header() {
         <Link to={"/projects"} className="nav_list_link1">
           Projects
         </Link>
-        <Link to="/aboutme" className="nav_list_link1">
+        <a href="/aboutme" className="nav_list_link1">
           About Me
-        </Link>
+        </a>
       </div>
     </header>
-    
   );
 }

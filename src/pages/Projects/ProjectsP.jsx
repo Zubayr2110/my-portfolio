@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   ProjectSimg,
   ProjectSimg2,
@@ -23,12 +23,12 @@ export default function ProjectsP() {
                 Ushbu loyiha HTML va CSS dan iborat
               </h2>
               <div className="projectCDbtn">
-                <a href="https://0name.netlify.app">
+                <Link to="https://0name.netlify.app" target='_blank'>
                   <button className="projectCD1ndbtn1">Project Link</button>
-                </a>
-                <a href="https://github.com/Zubayr2110/client-first.git">
+                </Link>
+                <Link to="https://github.com/Zubayr2110/client-first.git" target='_blank'>
                   <button className="projectCD1ndbtn2">Github Link</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -38,12 +38,12 @@ export default function ProjectsP() {
                 Todo List 
               </h2>
               <div className="projectCDbtn">
-                <a href="https://todog.netlify.app/">
+                <Link to="https://todog.netlify.app/" target='_blank'>
                   <button className="projectCD1ndbtn1">Project Link</button>
-                </a>
-                <a href="https://github.com/Zubayr2110/Todo.git">
+                </Link>
+                <Link to="https://github.com/Zubayr2110/Todo.git" target='_blank'>
                   <button className="projectCD1ndbtn2">Github Link</button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="projectCD2nd">
@@ -59,12 +59,12 @@ export default function ProjectsP() {
                 Bu Project HTML CSS va JS API yordamida Yasalgan
               </h2>
               <div className="projectCDbtn">
-                <a href="https://sh0p.netlify.app">
+                <Link to="https://sh0p.netlify.app" target='_blank'>
                   <button className="projectCD1ndbtn1">Project Link</button>
-                </a>
-                <a href="https://github.com/Zubayr2110/fileshop.git">
+                </Link>
+                <Link to="https://github.com/Zubayr2110/fileshop.git" target='_blank'>
                   <button className="projectCD1ndbtn2">Github Link</button>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -74,12 +74,12 @@ export default function ProjectsP() {
                 This Is My Portfolio
               </h2>
               <div className="projectCDbtn">
-                <a href="https://my-portfolio.uz">
+                <Link to="https://my-portfolio.uz" target='_blank'>
                   <button className="projectCD1ndbtn1">Project Link</button>
-                </a>
-                <a href="https://github.com/Zubayr2110/my-portfolio.git">
+                </Link>
+                <Link to="https://github.com/Zubayr2110/my-portfolio.git" target='_blank'>
                   <button className="projectCD1ndbtn2">Github Link</button>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="projectCD2nd">

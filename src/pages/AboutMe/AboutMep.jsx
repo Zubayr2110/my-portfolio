@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./AboutMe.css";
+import { MainAvatar } from "../../components/export_img";
 export default function AboutMeP() {
   window.onload = function () {
     const ctx = document.getElementById("myChart");
@@ -32,7 +33,8 @@ export default function AboutMeP() {
         <div className="aboutC1">
           <div className="aboutC1A">
             <img
-              src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg"
+              // src="https://bootstrapmade.com/demo/templates/DevFolio/assets/img/testimonial-2.jpg"
+              src={MainAvatar}
               alt="img"
               className="aboutC1Aimg"
             />

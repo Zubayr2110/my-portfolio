@@ -27,7 +27,7 @@ export default function Homep() {
       </h1>
       <p className="maininfo">
         Hozirda Men Najot Ta'limni,  Chilonzor <br />
-        Filialida O'qiyman. Men Bilgan Texnologiya <br /> HTML, CSS, Sass, JS, Bootstrap,
+        Filialini Tugatdim. Men Bilgan Texnologiya <br /> HTML, CSS, Sass, JS, Bootstrap,
         React JS, Reducer, Redux.
       </p>
       <Link to="tel:+998998801206" className="mainbtna" target="_blank">

@@ -97,10 +97,10 @@ a {
     display: block;
   }
   .nav_list {
-    margin-left: 0px;
+    margin-left: -100px;
   }
   .nav_list_link {
-    margin-left: 10px;
+    margin-left: -50px;
   }
   .nav_list_link1 {
     /* font-size: 14px; */

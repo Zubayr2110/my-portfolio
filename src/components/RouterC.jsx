@@ -7,9 +7,9 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage.jsx";
 export default function RouterC() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<AboutMe/>} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/aboutme" element={<AboutMe />} />
+      <Route path="/pagem" element={<Home />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
